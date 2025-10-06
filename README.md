@@ -23,11 +23,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Roles (for grouping permissions)
 Admin Panel -> Agents -> Roles
 
-- Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+- Configure Departments 
 Admin Panel -> Agents -> Departments
 
 - Configure Teams
-Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Admin Panel -> Agents -> Teams 
 
 - Configure Agents (workers)
 Admin Panel -> Agents -> Add New
