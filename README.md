@@ -73,10 +73,14 @@ In this section, we are adding a new team. Click Roles> Teams> Add New Team. Her
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="801" height="809" alt="image" src="https://github.com/user-attachments/assets/46434e05-6d1e-4c5e-81e2-c78ecbc13a95" />
+<img width="799" height="458" alt="image" src="https://github.com/user-attachments/assets/fdc2f63d-529b-42b5-83aa-e2bd27f53015" />
+<img width="803" height="448" alt="image" src="https://github.com/user-attachments/assets/85535faf-682d-4236-b42d-0a1499ffddad" />
+<img width="814" height="381" alt="image" src="https://github.com/user-attachments/assets/7cef907f-b8d2-49a2-9bb9-aecc44ef08ef" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this section, we are creating new agents. Go to Agents> Agents> Create New Agent. Here you will enter their name and other personal/work information. Create a username and configure status and settings. In the access tab, you will assign them to a department and give them a role. In the permissions folder, you can configure different permissions for the user. In the teams tab, you simply assign them to a team. Click Create Now, and the user is in the osTicket database. 
 </p>
 <br />
 
