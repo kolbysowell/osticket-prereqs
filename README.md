@@ -48,6 +48,7 @@ Admin Panel -> Manage -> Help Topics
 
 <p>
 <img width="1205" height="740" alt="image" src="https://github.com/user-attachments/assets/6390fc04-9b7a-4cd9-9c66-881b3ba5453b" />
+  <img width="1187" height="915" alt="image" src="https://github.com/user-attachments/assets/2d30dde4-d9b7-459f-8609-b3154c65c601" />
 </p>
 <p>
 In this section, I will show you how to create a new role within osTicket. We will navigate to the Admin panel and go to Agents > Roles > Add New Role. Now we can name the role. Click the Permissions folder, where you can see and define what access you want the agent to have. Configure what access you would like for this particular role and click Add Role. You have now created a new role within the osTicket database. 
