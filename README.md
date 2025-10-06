@@ -83,7 +83,10 @@ In this section, we are creating new agents. Go to Agents> Agents> Create New Ag
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="800" height="572" alt="image" src="https://github.com/user-attachments/assets/b3350b79-968d-423f-93ff-50125f7b7f32" />
+
+
+In osTicket, go to Manage> SLA. There, you can add a new SLA. You will name the SLA, give it a status, and a grace period. Configure settings according to your company policies on said SLA severity. Click add plan and the SLA is now in the osTicket database. 
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
