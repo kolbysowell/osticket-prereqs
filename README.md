@@ -56,10 +56,11 @@ In this section, I will show you how to create a new role within osTicket. We wi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="805" height="940" alt="image" src="https://github.com/user-attachments/assets/808d6468-b9d3-4a18-93b1-444ed9735911" />
+<img width="800" height="460" alt="image" src="https://github.com/user-attachments/assets/869852d1-fba4-43ac-a3c0-d8bde84a84b0" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this section, we are adding a new department. Click Roles> Departments> Add New Department. Here you will add name, status, type, etc. Go through the settings and configure what best suits the department's tasks. In the access folder, you can add agents who are primary members of the department. Click create department. Now you have a new department in the database.
 </p>
 <br />
 
