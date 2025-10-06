@@ -68,7 +68,7 @@ In this section, we are adding a new department. Click Roles> Departments> Add N
 <img width="796" height="365" alt="image" src="https://github.com/user-attachments/assets/e1c65b99-8259-4934-97fc-1987272c0ed7" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this section, we are adding a new team. Click Roles> Teams> Add New Team. Here you will add the team name, status, and team lead. In the members folder, you can add members to the team. Click Create Team, and the team is now in the osTicket database. 
 </p>
 <br />
 
