@@ -83,8 +83,16 @@ To manage existing departments, return to Roles > Departments. From there, you c
 <p><img width="795" height="588" alt="image" src="https://github.com/user-attachments/assets/1cf4e7d2-07fa-4434-986b-04204a8b2592" />
 <img width="796" height="365" alt="image" src="https://github.com/user-attachments/assets/e1c65b99-8259-4934-97fc-1987272c0ed7" />
 </p>
-<p>
-In this section, we are adding a new team. Click Roles> Teams> Add New Team. Here you will add the team name, status, and team lead. In the members folder, you can add members to the team. Click Create Team, and the team is now in the osTicket database. 
+<p>Creating and Managing Teams in osTicket
+
+In this section, we will add a new team within osTicket.
+From the Admin Panel, go to Roles > Teams > Add New Team.
+Enter the team’s name, status, and team lead, then review the settings to ensure they align with your organizational structure.
+
+In the Members tab, you can assign agents to the team.
+Once all settings are configured, click Create Team. You have now successfully added a new team to the osTicket database.
+
+To manage existing teams, return to Roles > Teams. From there, you can edit, update, or remove teams as needed to maintain accurate team organization within the system. 
 </p>
 <br />
 
@@ -96,8 +104,19 @@ In this section, we are adding a new team. Click Roles> Teams> Add New Team. Her
 
 </p>
 <p>
-In this section, we are creating new agents. Go to Agents> Agents> Create New Agent. Here you will enter their name and other personal/work information. Create a username and configure status and settings. In the access tab, you will assign them to a department and give them a role. In the permissions folder, you can configure different permissions for the user. In the teams tab, you simply assign them to a team. Click Create Now, and the user is in the osTicket database. 
-</p>
+Creating and Managing Agents in osTicket
+
+In this section, we will create a new agent within osTicket.
+From the Admin Panel, go to Agents > Agents > Create New Agent.
+Enter the agent’s name, along with their personal and work information. Create a username, then configure the agent’s status and settings.
+
+In the Access tab, assign the agent to a department and give them a role.
+In the Permissions tab, configure specific permissions for the agent based on their responsibilities.
+Under the Teams tab, assign the agent to the appropriate team.
+
+Once all information and settings are complete, click Create Now. You have successfully added a new agent to the osTicket database.
+
+To manage existing agents, return to Agents > Agents. From there, you can edit, update, or disable agents as needed to maintain proper access and staff organization within the system.
 <br />
 
 <p>
