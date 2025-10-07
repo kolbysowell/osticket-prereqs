@@ -207,7 +207,6 @@ Congratulations! 🎊
 You’ve successfully completed the **post-installation configuration** of osTicket.  
 Your environment now includes working roles, departments, teams, agents, users, SLAs, and help topics — all ready for ticket creation and management.  
 
-Next up: [**Part 3 – Ticket Lifecycle: Intake Through Resolution**](https://github.com/RoslyndWilliams/osTicket--Ticket-Lifecycle)
 
 ---
 
