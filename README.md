@@ -123,10 +123,17 @@ To manage existing agents, return to Agents > Agents. From there, you can edit, 
 <img width="800" height="572" alt="image" src="https://github.com/user-attachments/assets/b3350b79-968d-423f-93ff-50125f7b7f32" />
 
 
-In osTicket, go to Manage> SLA. There, you can add a new SLA. You will name the SLA, give it a status, and a grace period. Configure settings according to your company policies on said SLA severity. Click add plan and the SLA is now in the osTicket database. 
+Creating and Managing SLAs in osTicket
+
+In this section, we will create a new SLA within osTicket.
+From the Admin Panel, navigate to Manage > SLA.
+Enter the name, status, and grace period for the SLA. Configure additional settings according to your company’s policies and the severity level of the SLA.
+
+Once all details are set, click Add Plan. You have now successfully created a new SLA in the osTicket database.
+
+To manage existing SLAs, return to Manage > SLA. From there, you can edit, update, or delete SLA plans as needed to ensure they align with your organization’s service standards.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
