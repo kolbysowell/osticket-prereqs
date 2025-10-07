@@ -67,7 +67,16 @@ To manage existing roles, navigate to Agents > Roles from the Admin Panel. From 
 <img width="800" height="460" alt="image" src="https://github.com/user-attachments/assets/869852d1-fba4-43ac-a3c0-d8bde84a84b0" />
 </p>
 <p>
-In this section, we are adding a new department. Click Roles> Departments> Add New Department. Here you will add name, status, type, etc. Go through the settings and configure what best suits the department's tasks. In the access folder, you can add agents who are primary members of the department. Click create department. Now you have a new department in the database.
+Creating and Managing Departments in osTicket
+
+In this section, we will add a new department within osTicket.
+From the Admin Panel, go to Roles > Departments > Add New Department.
+Enter the department’s name, status, and type, then review the available settings to configure what best fits the department’s responsibilities and workflow.
+
+In the Access tab, you can assign agents who will be primary members of the department.
+Once all settings are configured, click Create Department. You have now successfully added a new department to the osTicket database.
+
+To manage existing departments, return to Roles > Departments. From there, you can edit, update, or delete departments as needed to keep your organizational structure accurate and up to date.
 </p>
 <br />
 
