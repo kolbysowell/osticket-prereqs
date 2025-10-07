@@ -102,24 +102,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 Creating and Managing Help Topics
 
-To create a new help topic:
+To create a new help topic, go to Manage > Help Topics > Create New Help Topic.
+Enter a name for the topic, set its status, and configure the desired settings.
 
-Navigate to Manage > Help Topics > Create New Help Topic.
+In the New Settings section, you can define which department the ticket will be assigned to, set the priority level, select the SLA plan, and adjust other configurations such as auto-assignment rules or category tags.
 
-Enter a name, set its status, and configure the desired settings.
-
-In the New Settings section, you can customize several options, such as:
-
-The department the ticket will be assigned to
-
-The priority level
-
-The SLA plan
-
-Other relevant ticket handling preferences
-
-To manage existing help topics, simply go to Manage > Help Topics, where you can browse, edit, or organize all your current topics.
-
-Would you like me to make it sound a bit more instructional (like a step-by-step guide for a manual) or formal (for internal documentation or training slides)?
+To manage existing help topics, navigate to Manage > Help Topics. From there, you can browse, edit, or organize all current help topics as needed.
 </p>
 <br />
