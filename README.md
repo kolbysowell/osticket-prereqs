@@ -48,8 +48,17 @@ Admin Panel -> Manage -> Help Topics
 <img width="1205" height="740" alt="image" src="https://github.com/user-attachments/assets/6390fc04-9b7a-4cd9-9c66-881b3ba5453b" />
   <img width="1187" height="915" alt="image" src="https://github.com/user-attachments/assets/2d30dde4-d9b7-459f-8609-b3154c65c601" />
 </p>
-<p>
-**DISCLAMER*I am RDP to a virtual machine in which I have installed osTicket.** In this section, I will show you how to create a new role within osTicket. We will navigate to the Admin panel and go to Agents > Roles > Add New Role. Now we can name the role. Click the Permissions folder, where you can see and define what access you want the agent to have. Configure what access you would like for this particular role and click Add Role. You have now created a new role within the osTicket database. 
+<p>Creating a New Role in osTicket
+
+Disclaimer: I am RDP’d into a virtual machine where osTicket is installed.
+
+In this section, I will demonstrate how to create a new role within osTicket.
+First, navigate to the Admin Panel, then go to Agents > Roles > Add New Role.
+Enter a name for the new role. Next, open the Permissions tab, where you can view and define the specific access levels you want the agent to have.
+
+After configuring the desired permissions for this role, click Add Role.
+You have now successfully created a new role within the osTicket database.
+To manage existing roles, navigate to Agents > Roles from the Admin Panel. From there, you can edit, update, or remove roles as needed to maintain proper access control.
 </p>
 <br />
 
