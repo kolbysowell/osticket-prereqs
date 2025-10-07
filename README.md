@@ -1,156 +1,216 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+<h1 align="center">osTicket – Post-Install Setup and Configuration</h1>
+
+  
+In this walkthrough, I cover the **post-installation setup process** for the open-source helpdesk platform **osTicket**, including how to configure departments, agents, teams, SLAs, and help topics for real-world use.
+
+---
+
+## 🧠 Technologies & Environment
+
+- **Microsoft Azure** (Virtual Machines / Compute Resources)  
+- **Remote Desktop Protocol (RDP)**  
+- **Internet Information Services (IIS)**  
+
+---
+
+## 💻 Operating System
+
+- **Windows 10 (21H2)**  
+
+---
+
+## 🧩 Prerequisites
+
+Before starting, make sure the following are ready:
+
+- A **Microsoft Azure** environment  
+- A **Virtual Machine** with Windows installed  
+- A working installation of **osTicket**  
 
 
 
+---
 
-<h2>Environments and Technologies Used</h2>
+## 📘 Helpful References
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+Explore these links to better understand key osTicket components:
 
-<h2>Operating Systems Used </h2>
+- [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html)  
+- [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html)  
+- [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html)  
+- [Agents](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html)  
+- [Users](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html)  
+- [Service Level Agreements (SLA)](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html)  
 
-- Windows 10</b> (21H2)
+---
 
-<h2>Post-Install Configuration Objectives</h2>
+## ⚙️ Step-by-Step Configuration
 
-- Configure Roles (for grouping permissions)
-Admin Panel -> Agents -> Roles
+### Step 1: Log In to osTicket
+Open your osTicket URL and sign in using the **admin credentials** you created during installation.  
+You should see the main dashboard.
 
-- Configure Departments 
-Admin Panel -> Agents -> Departments
-
-- Configure Teams
-Admin Panel -> Agents -> Teams 
-
-- Configure Agents (workers)
-Admin Panel -> Agents -> Add New
-
-- Configure SLA
-Admin Panel -> Manage -> SLA
-
-
-
-
-- Configure Help Topics (For when users create a ticket)
-Admin Panel -> Manage -> Help Topics
-
-
-<h2>Configuration Steps</h2>
-
-<p>
-<img width="1205" height="740" alt="image" src="https://github.com/user-attachments/assets/6390fc04-9b7a-4cd9-9c66-881b3ba5453b" />
-  <img width="1187" height="915" alt="image" src="https://github.com/user-attachments/assets/2d30dde4-d9b7-459f-8609-b3154c65c601" />
+<p align="center">
+  <img src="https://i.imgur.com/gAXVBO2.png" width="80%" alt="osTicket login screen"/>
 </p>
-<p>Creating a New Role in osTicket
 
-Disclaimer: I am RDP’d into a virtual machine where osTicket is installed.
+---
 
-In this section, I will demonstrate how to create a new role within osTicket.
-First, navigate to the Admin Panel, then go to Agents > Roles > Add New Role.
-Enter a name for the new role. Next, open the Permissions tab, where you can view and define the specific access levels you want the agent to have.
+### Step 2: Create Roles
+Make sure you’re in the **Admin Panel** (the upper-right toggle should say *Admin*).  
+Navigate to **Agents → Roles → Add New Role**.  
 
-After configuring the desired permissions for this role, click Add Role.
-You have now successfully created a new role within the osTicket database.
-To manage existing roles, navigate to Agents > Roles from the Admin Panel. From there, you can edit, update, or remove roles as needed to maintain proper access control.
+Name the role **Supreme Admin**, open the **Permissions** tab, and select every option under *Tickets*, *Tasks*, and *Knowledgebase*.  
+Click **Add Role** when finished.
+
+<p align="center">
+  <img src="https://i.imgur.com/9tiOON2.png" width="70%" alt="osTicket roles"/>  
+  <img src="https://i.imgur.com/CfCzRRk.png" width="70%" alt="osTicket permissions"/>
 </p>
-<br />
 
-<p>
-<img width="805" height="940" alt="image" src="https://github.com/user-attachments/assets/808d6468-b9d3-4a18-93b1-444ed9735911" />
-<img width="800" height="460" alt="image" src="https://github.com/user-attachments/assets/869852d1-fba4-43ac-a3c0-d8bde84a84b0" />
+---
+
+### Step 3: Add a Department
+Still in the **Admin Panel**, go to **Agents → Departments → Add New Department**.  
+Name the department **System Administrators**, then click **Create Department**.
+
+<p align="center">
+  <img src="https://i.imgur.com/f2uEloL.png" width="70%" alt="osTicket departments"/>  
+  <img src="https://i.imgur.com/X2dXwjY.png" width="70%" alt="osTicket create department"/>
 </p>
-<p>
-Creating and Managing Departments in osTicket
 
-In this section, we will add a new department within osTicket.
-From the Admin Panel, go to Roles > Departments > Add New Department.
-Enter the department’s name, status, and type, then review the available settings to configure what best fits the department’s responsibilities and workflow.
+---
 
-In the Access tab, you can assign agents who will be primary members of the department.
-Once all settings are configured, click Create Department. You have now successfully added a new department to the osTicket database.
+### Step 4: Build a Team
+Navigate to **Agents → Teams → Add New Team**.  
+Name the team **Level II Support**.  
 
-To manage existing departments, return to Roles > Departments. From there, you can edit, update, or delete departments as needed to keep your organizational structure accurate and up to date.
+Open the **Members** tab, select yourself under *Select Agent*, and click **Create Team**.
+
+<p align="center">
+  <img src="https://i.imgur.com/v6zzN3N.png" width="70%" alt="osTicket teams"/>  
+  <img src="https://i.imgur.com/4IieS80.png" width="70%" alt="osTicket add team"/>
 </p>
-<br />
 
-<p><img width="795" height="588" alt="image" src="https://github.com/user-attachments/assets/1cf4e7d2-07fa-4434-986b-04204a8b2592" />
-<img width="796" height="365" alt="image" src="https://github.com/user-attachments/assets/e1c65b99-8259-4934-97fc-1987272c0ed7" />
+---
+
+### Step 5: Allow Public Ticket Creation
+To make osTicket accessible to all users, go to **Settings → User Settings**.  
+Ensure **“Registration Required”** is **unchecked** so users can submit tickets without creating an account.
+
+<p align="center">
+  <img src="https://i.imgur.com/kcd1jRf.png" width="80%" alt="osTicket user settings"/>
 </p>
-<p>Creating and Managing Teams in osTicket
 
-In this section, we will add a new team within osTicket.
-From the Admin Panel, go to Roles > Teams > Add New Team.
-Enter the team’s name, status, and team lead, then review the settings to ensure they align with your organizational structure.
+---
 
-In the Members tab, you can assign agents to the team.
-Once all settings are configured, click Create Team. You have now successfully added a new team to the osTicket database.
+### Step 6: Add Agents
+Create a new support agent under **Agents → Add New Agent**.  
 
-To manage existing teams, return to Roles > Teams. From there, you can edit, update, or remove teams as needed to maintain accurate team organization within the system. 
+Example agent:  
+- **Name:** Jane Doe  
+- **Email:** jane.doe@osticket.com  
+- **Username:** jane.doe  
+
+Click **Set Password**, uncheck *Send Password Reset Email*, choose your own password, and uncheck *Require Password Change at Next Login*.  
+
+<p align="center">
+  <img src="https://i.imgur.com/fTvI0Ru.png" width="70%" alt="osTicket agent setup"/>  
+  <img src="https://i.imgur.com/6OU5KqX.png" width="70%" alt="osTicket agent credentials"/>
 </p>
-<br />
 
-<p>
-<img width="801" height="809" alt="image" src="https://github.com/user-attachments/assets/46434e05-6d1e-4c5e-81e2-c78ecbc13a95" />
-<img width="799" height="458" alt="image" src="https://github.com/user-attachments/assets/fdc2f63d-529b-42b5-83aa-e2bd27f53015" />
-<img width="803" height="448" alt="image" src="https://github.com/user-attachments/assets/85535faf-682d-4236-b42d-0a1499ffddad" />
-<img width="814" height="381" alt="image" src="https://github.com/user-attachments/assets/7cef907f-b8d2-49a2-9bb9-aecc44ef08ef" />
+Under the **Access** tab:  
+- Primary Department: *System Administrators*  
+- Role: *Supreme Admin*  
+- Extended Access: Add *Support* → *Supreme Admin*  
 
+Under the **Teams** tab:  
+- Team: *Level II Support* → Add  
+
+Click **Create** to save the agent.
+
+<p align="center">
+  <img src="https://i.imgur.com/HPSPHNU.png" width="70%" alt="osTicket agent access"/>  
+  <img src="https://i.imgur.com/hotx1wo.png" width="70%" alt="osTicket team membership"/>
 </p>
-<p>
-Creating and Managing Agents in osTicket
 
-In this section, we will create a new agent within osTicket.
-From the Admin Panel, go to Agents > Agents > Create New Agent.
-Enter the agent’s name, along with their personal and work information. Create a username, then configure the agent’s status and settings.
+You can repeat the process to add another agent (for example, *John Doe*) with limited access:
+- Department: *Support*  
+- Role: *View Only*  
 
-In the Access tab, assign the agent to a department and give them a role.
-In the Permissions tab, configure specific permissions for the agent based on their responsibilities.
-Under the Teams tab, assign the agent to the appropriate team.
-
-Once all information and settings are complete, click Create Now. You have successfully added a new agent to the osTicket database.
-
-To manage existing agents, return to Agents > Agents. From there, you can edit, update, or disable agents as needed to maintain proper access and staff organization within the system.
-<br />
-
-<p>
-<img width="800" height="572" alt="image" src="https://github.com/user-attachments/assets/b3350b79-968d-423f-93ff-50125f7b7f32" />
-
-
-Creating and Managing SLAs in osTicket
-
-In this section, we will create a new SLA within osTicket.
-From the Admin Panel, navigate to Manage > SLA.
-Enter the name, status, and grace period for the SLA. Configure additional settings according to your company’s policies and the severity level of the SLA.
-
-Once all details are set, click Add Plan. You have now successfully created a new SLA in the osTicket database.
-
-To manage existing SLAs, return to Manage > SLA. From there, you can edit, update, or delete SLA plans as needed to ensure they align with your organization’s service standards.
+<p align="center">
+  <img src="https://i.imgur.com/qQ8ckBr.png" width="70%" alt="osTicket view only agent"/>  
+  <img src="https://i.imgur.com/KVPsUb4.png" width="70%" alt="osTicket support agent"/>
 </p>
-<p>
+
+---
+
+### Step 7: Add Users
+Users represent your end customers or employees.
+
+Navigate to **Users → Add New User** and enter:
+
+1. **Email:** karen@osticket.com  
+   **Name:** Karen Karen  
+2. **Email:** ken@osticket.com  
+   **Name:** Ken Ken  
+
+<p align="center">
+  <img src="https://i.imgur.com/UUqCK1d.png" width="80%" alt="osTicket users"/>  
+  <img src="https://i.imgur.com/wpTn12W.png" width="80%" alt="osTicket add user"/>  
+  <img src="https://i.imgur.com/EXyy5Gq.png" width="80%" alt="osTicket user directory"/>
 </p>
-<br />
 
-<p>
-<img width="802" height="544" alt="image" src="https://github.com/user-attachments/assets/dd61a36d-4492-486d-b694-6ecdf2c9215e" />
-<img width="799" height="527" alt="image" src="https://github.com/user-attachments/assets/2bc53b07-d00c-4554-ac83-e4f1ca222bb1" />
-<img width="793" height="429" alt="image" src="https://github.com/user-attachments/assets/ae306aa5-6663-4241-b618-6c05f65ee8b4" />
+---
 
+### Step 8: Configure SLA Plans
+Define Service Level Agreements to manage response times.
+
+Go to **Manage → SLA → Add New SLA Plan** and create the following:
+
+| Name | Grace Period | Schedule |
+|------|---------------|-----------|
+| **SEV-A** | 1 hour | 24/7 |
+| **SEV-B** | 4 hours | 24/7 |
+| **SEV-C** | 8 hours | Mon–Fri 8AM–5PM (U.S. Holidays) |
+
+<p align="center">
+  <img src="https://i.imgur.com/fMR4yMR.png" width="80%" alt="osTicket SLA"/>  
+  <img src="https://i.imgur.com/3tQnihq.png" width="80%" alt="osTicket SLA setup"/>  
+  <img src="https://i.imgur.com/pAbQPEP.png" width="80%" alt="osTicket SEV-B"/>  
+  <img src="https://i.imgur.com/5cgn0oz.png" width="80%" alt="osTicket SEV-C"/>
 </p>
-<p>
-Creating and Managing Help Topics
 
-To create a new help topic, go to Manage > Help Topics > Create New Help Topic.
-Enter a name for the topic, set its status, and configure the desired settings.
+---
 
-In the New Settings section, you can define which department the ticket will be assigned to, set the priority level, select the SLA plan, and adjust other configurations such as auto-assignment rules or category tags.
+### Step 9: Add Help Topics
+Go to **Manage → Help Topics → Add New Help Topic** and create:
 
-To manage existing help topics, navigate to Manage > Help Topics. From there, you can browse, edit, or organize all current help topics as needed.
+- Business Critical Outage  
+- Personal Computer Issues  
+- Equipment Request  
+- Password Reset  
+
+<p align="center">
+  <img src="https://i.imgur.com/uFmSyqK.png" width="80%" alt="osTicket help topics"/>
 </p>
-<br />
+
+---
+
+## 🎉 Completion
+
+Congratulations! 🎊  
+You’ve successfully completed the **post-installation configuration** of osTicket.  
+Your environment now includes working roles, departments, teams, agents, users, SLAs, and help topics — all ready for ticket creation and management.  
+
+Next up: [**Part 3 – Ticket Lifecycle: Intake Through Resolution**](https://github.com/RoslyndWilliams/osTicket--Ticket-Lifecycle)
+
+---
+
+**Author:** Kolby Sowell  
+**Project Type:** IT Help Desk / System Administration Portfolio Project  
+**Platform:** osTicket (Open Source Helpdesk Ticketing System)
