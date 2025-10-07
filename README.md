@@ -94,9 +94,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="802" height="544" alt="image" src="https://github.com/user-attachments/assets/dd61a36d-4492-486d-b694-6ecdf2c9215e" />
+<img width="799" height="527" alt="image" src="https://github.com/user-attachments/assets/2bc53b07-d00c-4554-ac83-e4f1ca222bb1" />
+<img width="793" height="429" alt="image" src="https://github.com/user-attachments/assets/ae306aa5-6663-4241-b618-6c05f65ee8b4" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Creating and Managing Help Topics
+
+To create a new help topic:
+
+Navigate to Manage > Help Topics > Create New Help Topic.
+
+Enter a name, set its status, and configure the desired settings.
+
+In the New Settings section, you can customize several options, such as:
+
+The department the ticket will be assigned to
+
+The priority level
+
+The SLA plan
+
+Other relevant ticket handling preferences
+
+To manage existing help topics, simply go to Manage > Help Topics, where you can browse, edit, or organize all your current topics.
+
+Would you like me to make it sound a bit more instructional (like a step-by-step guide for a manual) or formal (for internal documentation or training slides)?
 </p>
 <br />
